@@ -24,9 +24,18 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/normalize.css",
+              "src/assets/css/swiper.min.css",
+              "src/assets/css/base.css",
+              "src/assets/css/main.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/libs/jquery.min.js",
+              "src/assets/libs/swiper.min.js",
+              "src/assets/js/slider.js",
+              "src/assets/js/common.js"
+            ]
           },
           "configurations": {
             "production": {
