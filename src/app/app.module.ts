@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
