@@ -38,8 +38,8 @@ function removeClassCss(a, b) {
 
 //--JQuery syntax--
 // open close section partners
-$("#btnShowPartners").click(function() {
-  $("#partnersContentHidden").toggle();
+$(".btnShowPartners").click(function() {
+  $(".partnersContentHidden").toggle();
 });
 
 // menu click scroll
