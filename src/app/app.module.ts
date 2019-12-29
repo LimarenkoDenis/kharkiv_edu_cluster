@@ -6,13 +6,15 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { OurProjectComponent } from './OurProjects/our-project.component';
-import { JoinTeamComponent } from  './JoinTeam/join-team.component'
+import { JoinTeamComponent } from  './JoinTeam/join-team.component';
+import { OurPartnersComponent } from './OurPartners/our-partners.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     OurProjectComponent,
-    JoinTeamComponent
+    JoinTeamComponent,
+    OurPartnersComponent
   ],
   imports: [
     BrowserModule,

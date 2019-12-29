@@ -16,5 +16,4 @@ export class OurProjectComponent{
       map((items) => items[3])
     );
   }
-
 }

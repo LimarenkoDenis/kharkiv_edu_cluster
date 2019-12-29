@@ -17,5 +17,4 @@ export class JoinTeamComponent {
       map((items) => items[2])
     );
   }
-
 }
