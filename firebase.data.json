@@ -56,6 +56,98 @@
       "description" : "Організовуємо майстер-класи, лекції та тренінги за 8 напрямками2",
       "image_link" : "assets/img/project-kl.jpg"
     } ] 
+  }, {
+    "OUR_PARTNERS" : [ {
+      "image_link" : "assets/img/partners/1mr.png",
+      "partners_link" : "https://www.city.kharkov.ua"
+    }, {
+      "image_link" : "assets/img/partners/2sinrgeria.png",
+      "partners_link" : "https://synergy-park.com"
+    }, {
+      "image_link" : "assets/img/partners/3link.png",
+      "partners_link" : "https://www.facebook.com/link.kh/"
+    }, {
+      "image_link" : "assets/img/partners/4street.png",
+      "partners_link" : "http://www.street-culture.net"
+    }, {
+      "image_link" : "assets/img/partners/5hillel.png",
+      "partners_link" : "https://kharkiv.ithillel.ua"
+    }, {
+      "image_link" : "assets/img/partners/6allstars-a.png",
+      "partners_link" : "http://allstars-dance.com"
+    }, {
+      "image_link" : "assets/img/partners/7br.jpg",
+      "partners_link" : "http://www.kharkivosvita.net.ua/content/35"
+    }, {
+      "image_link" : "assets/img/partners/8or.png",
+      "partners_link" : "https://ru-ru.facebook.com/reformkharkiv/"
+    }, {
+      "image_link" : "assets/img/partners/9testo.png",
+      "partners_link" : "https://testoschool.com"
+    }, {
+      "image_link" : "assets/img/partners/10eruditus.png",
+      "partners_link" : "https://eruditus.ua"
+    }, {
+      "image_link" : "assets/img/partners/11syhari.png",
+      "partners_link" : "https://sukhari.com.ua"
+    }, {
+      "image_link" : "assets/img/partners/12fss.png",
+      "partners_link" : "https://www.facebook.com/fss.consulting.ua"
+    }, {
+      "image_link" : "assets/img/partners/13-4e.jpg",
+      "partners_link" : "https://www.facebook.com/4ECONSULTINGCOMPANY/"
+    }, {
+      "image_link" : "assets/img/partners/14itcluster.png",
+      "partners_link" : "https://it-kharkiv.com/ru/"
+    }, {
+      "image_link" : "assets/img/partners/15unit.png",
+      "partners_link" : "https://kharkiv.unit.city/ru/main/"
+    }, {
+      "image_link" : "assets/img/partners/16sm.png",
+      "partners_link" : "http://sportevents.kharkiv.ua/o-departamente.html"
+    } ]
+  }, {
+    "OUR_TEAM" : [ {
+      "image" : "../assets/img/people/kristina-che.jpg",
+      "full_name" : "Кристина Черкасова",
+      "position" : "Chief Operating Officer"
+    },  {
+      "image" : "../assets/img/people/anastasia-b.jpg",
+      "full_name" : "Анастасія Баранник",
+      "position" : "PR and content-manager"
+    }, {
+      "image" : "../assets/img/people/dmitry-d.jpg",
+      "full_name" : "Дмитро Давідьянц",
+      "position" : "Partnership-manager"
+    }, {
+      "image" : "../assets/img/people/aleks-ch.jpg",
+      "full_name" : "Олексій Чубаров",
+      "position" : "Co-Founder EDU Cluster"
+    }, {
+      "image" : "../assets/img/people/darya-li.jpg",
+      "full_name" : "Дар’я Лисицька",
+      "position" : "Trend-manager"
+    }, {
+      "image" : "../assets/img/people/olga_cici.jpg",
+      "full_name" : "Ольга Чичина",
+      "position" : "CEO Kharkiv EDU Cluster"
+    }, {
+      "image" : "../assets/img/people/viktoria-m.jpg",
+      "full_name" : "Вікторія Мазя",
+      "position" : "PR-manager"
+    }, {
+      "image" : "../assets/img/people/kateryna-bo.jpg",
+      "full_name" : "Катерина Борзенкова",
+      "position" : "Project-manager"
+    }, {
+      "image" : "../assets/img/people/anton-ga.jpg",
+      "full_name" : "Антон Ганус",
+      "position" : "Project-manager"
+    }, {
+      "image" : "../assets/img/people/anna-gy.jpg",
+      "full_name" : "Анна Гукова",
+      "position" : "Project-manager"
+    } ]
   } ]
 }
 
