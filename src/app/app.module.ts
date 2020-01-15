@@ -7,14 +7,18 @@ import { environment } from '../environments/environment';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { OurProjectComponent } from './OurProjects/our-project.component';
 import { JoinTeamComponent } from  './JoinTeam/join-team.component';
-import { OurPartnersComponent } from './OurPartners/our-partners.component'
+import { OurPartnersComponent } from './OurPartners/our-partners.component';
+import { OurTeamComponent } from './OurTeam/our-team.component';
+import { SetImageDirective } from './set-image.directive'
 
 @NgModule({
   declarations: [
     AppComponent,
     OurProjectComponent,
     JoinTeamComponent,
-    OurPartnersComponent
+    OurPartnersComponent,
+    OurTeamComponent,
+    SetImageDirective
   ],
   imports: [
     BrowserModule,

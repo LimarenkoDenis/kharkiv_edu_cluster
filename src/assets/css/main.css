@@ -1348,6 +1348,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  background-position-x: -29px;
+  background-position-y: -34px;
+  background-size: 138%;
 }
 
 @media (min-width: 640px) {
