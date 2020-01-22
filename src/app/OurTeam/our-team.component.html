@@ -1,0 +1,32 @@
+<section class="section section-command" id="command">
+    <div class="container">
+      <div class="section-command__content-top">
+        <h2 class="section-command__heading">команда  edu cluster</h2>
+      </div>
+      <div class="section-command__content-slider-people">
+        <div class="swiper-container" id="swipeContainerTwo">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let OUR_TEAM of (content | async)?.OUR_TEAM">
+              <div class="card-people">
+                <div class="card-people__content-top">
+                  <div class="card-people__background-photo" [SetImage]="OUR_TEAM.image"></div>
+                </div>
+                <div class="card-people__content-bottom">
+                  <p class="card-people__title">{{OUR_TEAM.full_name}}</p>
+                  <p class="card-people__txt">{{OUR_TEAM.position}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-swiper-box-button slider-people-swiper-box-button">
+          <div
+            class="icon-btn-slider-left button-slider-people-left-play button-slider button-slider-people button-slider-people_special_margin_right button-slider-people_full_position_right">
+          </div>
+          <div
+            class="icon-btn-slider-right button-slider-people-right-play button-slider button-slider-people button-slider-people_full_position_left">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

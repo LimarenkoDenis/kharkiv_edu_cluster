@@ -1,0 +1,37 @@
+<section class="section section-project" id="project">
+    <div class="container">
+      <div class="section-project__content-top">
+        <h2 class="section-project__heading">наші проекти</h2>
+      </div>
+      <div class="section-project__content-slider">
+        <div class="swiper-container" id="swiperContainerOne">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let PROJECTS of (content | async)?.OUR_PROJECTS">
+              <div class="card-project">
+                <div class="card-project__content-top">
+                  <div class="card-project__overlay">
+                    <div class="card-project__foreground">
+                      <figure class="card-project__figure"><img class="card-project__picture"
+                          [src]="PROJECTS.image_link" alt="edu school" /></figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-project__content-bottom">
+                  <h4 class="card-project__heading">{{PROJECTS.title}}</h4>
+                  <p class="card-project__txt">{{PROJECTS.description}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-swiper-box-button slider-swiper-box-button_position_middle">
+          <div
+            class="icon-btn-slider-left button-slider-right-play button-slider button-slider_special_margin button-slider_special_margin_right button-slider_full_position_right">
+          </div>
+          <div
+            class="icon-btn-slider-right button-slider-left-play button-slider button-slider_special_margin button-slider_special_margin_left_zero button-slider_full_position_left">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

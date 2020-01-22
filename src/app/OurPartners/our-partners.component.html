@@ -1,0 +1,40 @@
+<section class="section section-partners" id="partners">
+    <div class="container">
+      <div class="section-partners__content-top">
+        <h2 class="section-partners__heading">наші партнери</h2>
+      </div>
+      <div class="section-partners__content-middle">
+        <div class="grid">
+          <div class="grid__item grid__item_padding-right_40 width-1-1 width-1-2-sm width-1-4-lg" *ngFor="let PARTNERS of toShow">
+            <div class="card-link">
+              <div
+                class="card-link__content card-link__content_margin_right_zero card-link__content_margin_right_auto">
+                <div class="card-link__box-link"><a [href]="PARTNERS.partners_link" target="_blank"><img
+                      class="card-link__picture" [src]="PARTNERS.image_link" alt="Харків міська рада" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div [ngClass]="{'section-partners__content-middle' : true, 'section-partners__content-middle_hidden' : showAllPartners, 'partnersContentHidden' : showAllPartners}">
+        <div class="grid grid_margin_top_10 grid_margin_top_43">
+          <div class="grid__item grid__item_padding-right_40 width-1-1 width-1-2-sm width-1-4-lg" *ngFor="let PARTNERS of toHidden">
+            <div class="card-link">
+                <div
+                class="card-link__content card-link__content_margin_right_zero card-link__content_margin_right_auto">
+                <div class="card-link__box-link"><a [href]="PARTNERS.partners_link" target="_blank"><img
+                      class="card-link__picture" [src]="PARTNERS.image_link" alt="Тесто" /></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-partners__content-bottom" *ngIf="showButton">
+        <div class="section-partners__box-button" *ngIf="showAllPartners; else displayCloseText" (click)="showPartners()"><a class="button" id="btnShowPartners">Всі партнери</a></div>
+        <ng-template #displayCloseText>
+        <div class="section-partners__box-button" (click)="showPartners()"><a class="button" id="btnShowPartners">Сховати</a></div>
+        </ng-template>
+      </div>
+    </div>
+  </section>

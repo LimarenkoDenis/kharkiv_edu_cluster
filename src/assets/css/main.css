@@ -1033,6 +1033,8 @@
 }
 
 .card-join__heading {
+  min-height: 60px;
+  height: auto;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -1346,6 +1348,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  background-position-x: -29px;
+  background-position-y: -34px;
+  background-size: 138%;
 }
 
 @media (min-width: 640px) {
