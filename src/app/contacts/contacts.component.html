@@ -1,0 +1,28 @@
+<div class="card-contact card-contact_position_absolute">
+  <div class="card-contact__content-top">
+    <h4 class="card-contact__heading">{{(content | async)?.CONTACTS[0].DESCRIPTION}}</h4>
+  </div>
+  <div class="card-contact__content-middle">
+    <ul class="list-address card-contact__list-address">
+      <li class="list-address__item">{{(content | async)?.CONTACTS[0].city}}</li>
+      <li class="list-address__item">{{(content | async)?.CONTACTS[0].street}}</li>
+      <li class="list-address__item"> <a class="list-address__link"
+                                         href="tel:{{(content | async)?.CONTACTS[0].tel}}">{{(content | async)?.CONTACTS[0].tel}}</a></li>
+      <li class="list-address__item"> <a class="list-address__link"
+                                         href="mailto:{{(content | async)?.CONTACTS[0].mail}}">{{(content | async)?.CONTACTS[0].mail}}</a></li>
+    </ul>
+  </div>
+  <div class="card-contact__content-bottom">
+    <ul class="list-social card-contact__list-social">
+      <li class="list-social__item"><a class="list-social__link"
+                                       href="{{(content | async)?.CONTACTS[0].fb}}" target="_blank"><span
+        class="icon-social-fb list-social__icon"></span></a></li>
+      <li class="list-social__item"><a class="list-social__link" href="{{(content | async)?.CONTACTS[0].telegram}}"
+                                       target="_blank"><span
+        class="icon-social-tel list-social__icon list-social__icon_padding_right_3"></span></a></li>
+      <li class="list-social__item"><a class="list-social__link"
+                                       href="{{(content | async)?.CONTACTS[0].instagram}}" target="_blank"><span
+        class="icon-social-ins list-social__icon"></span></a></li>
+    </ul>
+  </div>
+</div>

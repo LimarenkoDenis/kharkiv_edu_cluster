@@ -11,6 +11,7 @@ import { OurPartnersComponent } from './OurPartners/our-partners.component';
 import { OurTeamComponent } from './OurTeam/our-team.component';
 import { SetImageDirective } from './set-image.directive';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
     OurPartnersComponent,
     OurTeamComponent,
     SetImageDirective,
-    StatisticsComponent
+    StatisticsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
