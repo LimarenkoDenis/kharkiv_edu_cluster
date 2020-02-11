@@ -9,7 +9,7 @@
             <div class="swiper-slide" *ngFor="let OUR_TEAM of (content | async)?.OUR_TEAM">
               <div class="card-people">
                 <div class="card-people__content-top">
-                  <div class="card-people__background-photo" [SetImage]="OUR_TEAM.image"></div>
+                  <div class="card-people__background-photo" [SetImage]="OUR_TEAM.image" Mode="OurTeam"></div>
                 </div>
                 <div class="card-people__content-bottom">
                   <p class="card-people__title">{{OUR_TEAM.full_name}}</p>
